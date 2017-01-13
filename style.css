@@ -1,0 +1,60 @@
+main {
+  width: 960px;
+  margin: auto;
+}
+
+header {
+  width: 100%;
+  margin: auto;
+  border-bottom: 5px groove grey;
+}
+
+h2 {
+  height: 28px;
+}
+
+h2, h6 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 3px;
+  margin-left: 2px;
+  margin-top: 0px;
+}
+
+ul {
+  font-size: 24px;
+  list-style-type: none;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+.header-name {
+  font-family: 'Pacifico', cursive;
+}
+
+.header-subtext {
+  font-family: 'Oswald', sans-serif;
+}
+
+.page-title {
+  font-family: 'Oswald', sans-serif;
+  clear: left;
+}
+.logo {
+  float: left;
+}
+
+.social-media, .contact {
+  float: right;
+  display: inline-block;
+}
+
+.instructions, .contributor {
+  font-family: 'Alegreya', serif;
+}
+
+.ingredients {
+  font-family: 'Patrick Hand', cursive;
+  background-image: url("assets/list-bg.png");
+}
