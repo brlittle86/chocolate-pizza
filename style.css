@@ -1,5 +1,5 @@
 main {
-  width: 960px;
+  width: 900px;
   margin: auto;
 }
 
@@ -13,7 +13,7 @@ h2 {
   height: 28px;
 }
 
-h2, h6 {
+h2, .header-subtext {
   padding-top: 0px;
   padding-bottom: 0px;
   margin-bottom: 3px;
@@ -21,12 +21,18 @@ h2, h6 {
   margin-top: 0px;
 }
 
+
+
 ul {
   font-size: 24px;
   list-style-type: none;
   columns: 2;
   -webkit-columns: 2;
   -moz-columns: 2;
+}
+
+p {
+  text-indent: 2em;
 }
 
 .header-name {
@@ -41,12 +47,13 @@ ul {
   font-family: 'Oswald', sans-serif;
   clear: left;
 }
+
 .logo {
   float: left;
 }
 
 .social-media, .contact {
-  float: right;
+  align-self: flex-end;
   display: inline-block;
 }
 
@@ -57,4 +64,7 @@ ul {
 .ingredients {
   font-family: 'Patrick Hand', cursive;
   background-image: url("assets/list-bg.png");
+  padding-top: 5px;
+  max-height: 250px;
+  height: 250px;
 }
