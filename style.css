@@ -35,6 +35,14 @@ p {
   text-indent: 2em;
 }
 
+h5 {
+  margin: 0;
+}
+
+footer {
+  text-align: center;
+}
+
 .header-name {
   font-family: 'Pacifico', cursive;
 }
@@ -45,7 +53,6 @@ p {
 
 .page-title {
   font-family: 'Oswald', sans-serif;
-  clear: left;
 }
 
 .logo {
@@ -53,8 +60,15 @@ p {
 }
 
 .social-media, .contact {
-  align-self: flex-end;
+  float: right;
+  position: relative;
   display: inline-block;
+}
+
+.print {
+  float: right;
+  display: inline-block;
+  margin: 0;
 }
 
 .instructions, .contributor {
