@@ -1,0 +1,108 @@
+main {
+  width: 900px;
+  margin: auto;
+}
+
+header {
+  width: 100%;
+  margin: auto;
+  border-bottom: 10px groove grey;
+}
+
+h1 {
+  margin-top: 60px;
+  margin-bottom: 0;
+}
+
+h2 {
+  height: 28px;
+}
+
+h2, .header-subtext {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 3px;
+  margin-left: 2px;
+  margin-top: 0px;
+}
+
+
+
+ul {
+  font-size: 24px;
+  list-style-type: none;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+p {
+  text-indent: 2em;
+}
+
+h5 {
+  margin: 0;
+}
+
+footer {
+  text-align: center;
+}
+
+button {
+  height: 40px;
+  margin: auto;
+  background-color: #BC7058;
+  color: #FFFFFF;
+}
+
+.header-name {
+  font-family: 'Pacifico', cursive;
+}
+
+.header-subtext {
+  font-family: 'Oswald', sans-serif;
+}
+
+.page-title {
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+}
+
+.logo {
+  float: left;
+}
+
+.social-media, .contact {
+  float: right;
+  position: relative;
+  display: inline-block;
+}
+
+.print {
+  float: right;
+  display: inline-block;
+  margin: 0;
+}
+
+.contributor {
+  display: inline-flex;
+  margin-top: 20px;
+  margin-bottom: 80px;
+  height: 70px;
+}
+
+.instructions, .contributor {
+  font-family: 'Alegreya', serif;
+  color: #58585A;
+}
+
+.ingredients {
+  font-family: 'Patrick Hand', cursive;
+  background-image: url("assets/list-bg.png");
+  padding-top: 5px;
+  max-height: 260px;
+  height: 260px;
+  padding-bottom: 40px;
+  border-bottom: 10px groove grey;
+  color: #726C48;
+}
